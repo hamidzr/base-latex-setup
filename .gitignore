@@ -1,9 +1,12 @@
+*.acn
 *.aux
 *.bbl
 *.blg
-*.fls
+*.glo
+*.ist
+*.lof
 *.log
+*.lot
 *.out
-*.fdb_latexmk
-*.cut
 *.pdf
+*.toc

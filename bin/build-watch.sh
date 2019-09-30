@@ -4,15 +4,13 @@
 
 # requires npm, mupdf
 
-main_file=main
-
 build_cmd=./bin/build.sh
 
 # build the intial doc
 $build_cmd
 
 # open pdf viewer
-mupdf $main_file.pdf &
+mupdf $MAIN_FILE.pdf &
 if [ $? ne 0 ]; then
   mupdf `ls --sort time *.pdf | head -n 1` &
 fi
