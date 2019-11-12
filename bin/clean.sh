@@ -1,11 +1,12 @@
 #!/bin/bash
 
-rm $MAIN_FILE.glo
-rm $MAIN_FILE.acn
-rm $MAIN_FILE.out
-rm $MAIN_FILE.aux
-rm $MAIN_FILE.lot
-rm $MAIN_FILE.toc
-rm $MAIN_FILE.lof
-rm $MAIN_FILE.blg
-rm $MAIN_FILE.bbl
+rm $MAIN_FILE.glo > /dev/null 2>&1
+rm $MAIN_FILE.acn > /dev/null 2>&1
+rm $MAIN_FILE.out > /dev/null 2>&1
+rm $MAIN_FILE.aux > /dev/null 2>&1
+rm $MAIN_FILE.lot > /dev/null 2>&1
+rm $MAIN_FILE.toc > /dev/null 2>&1
+rm $MAIN_FILE.lof > /dev/null 2>&1
+rm $MAIN_FILE.blg > /dev/null 2>&1
+rm $MAIN_FILE.bbl > /dev/null 2>&1
+exit 0
